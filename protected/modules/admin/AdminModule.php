@@ -6,7 +6,7 @@ class AdminModule extends CWebModule
     {
         // import các thành phần cơ bản
         $this->setImport(array(
-                'site.components.AdminBaseController'
+                'admin.components.AdminBaseController'
             ));
 
         // tự động import từ config/import.php
